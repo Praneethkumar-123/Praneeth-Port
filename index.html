@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif;
+    }
+    .w3-row-padding img {
+      margin-bottom: 12px;
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 120px;
+      background: black;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 120px;
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0;
+      }
+    }
+    .w3-black{
+      background-color: aquamarine;
+    }
+  </style>
+  <body class="w3-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img src="/PRANEETH.jpg" style="width: 100%" />
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+      <a
+        href="#projects"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>PROJECTS</p>
+      </a>
+      <a
+        href="internships"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>INTERNSHIPS</p>
+      </a>
+      <a
+        href="achievements"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>ACHIEVEMENTS</p>
+      </a>
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >ABOUT</a
+        >
+        <a
+          href="#projects"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >PROJECTS</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">
+          <span class="w3-hide-small">I'm</span> Praneeth.
+        </h1>
+        <p>DEVELOPER</p>
+        <img
+          src="/PRANEETH.jpg"
+          alt="boy"
+          class="w3-image"
+          width="500"
+          height="1000"
+        />
+      </header>
+
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">About</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p>
+          Hi! I'm Praneeth, a Information Technology student in the class of
+          2020. I’m a hard-working, passionate person who believes in the
+          importance of education and accessibility to technological
+          advancements. My computer experience started early—my parents always
+          had one in our house. They had already taught me how to use the
+          internet by the time I was old enough to understand it. My dad was a
+          teacher, so he encouraged me to pursue computer science as my career
+          path from a young age. I’ve been involved in many different projects
+          at [College]—we’re currently working on an app that will allow
+          students to easily and quickly access their grades online. We’re also
+          working on an app that allows users to communicate anonymously with
+          other people using their phone’s microphone or camera without worrying
+          about them hearing their conversation or seeing them. The most
+          important thing for me is working well with others, especially when it
+          comes to creating something new or solving problems with my
+          classmates.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <p class="w3-wide">Web development</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 95%"></div>
+        </div>
+        <p class="w3-wide">Coding</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 85%"></div>
+        </div>
+        <p class="w3-wide">Backend</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 80%"></div>
+        </div>
+        <br />
+
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download Resume
+        </button>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+
+ <!--Projects(start)-->
+ <table
+ id="projects"
+ border="0"
+ width="100%"
+ cellpadding="0"
+ cellspacing="0"
+ bgcolor="#c2c0c3"
+>
+ <tr>
+   <td>
+     <table
+       border="0"
+       cellpadding="15"
+       cellspacing="0"
+       width="80%"
+       align="center"
+     >
+       <tr>
+         <td height="180" align="center" valign="middle" colspan="2">
+           <font face="Verdana" size="7" color="black"> Projects </font>
+           <hr color="black" width="90" />
+         </td>
+       </tr>
+
+       <tr>
+         <td height="10">
+           <font face="Times New Roman" size="5" color="black">
+             <ul>
+               <li>
+                 WEATHER APPLICATION
+                 <a href="#" style="text-decoration: none"> ➲ </a>
+               </li>
+
+               <li>
+                 <hr color="#c2c0c3" />
+                 MACHINE LEARNING MODEL USING PYTHON
+                 <a href="#" style="text-decoration: none" color="#c2c0c3">➲</a>
+               </li>
+
+               <li>
+                 <hr color="#c2c0c3" />
+                 SPACE SHOOTER GAME
+                 <a href="#" style="text-decoration: none"> ➲ </a>
+               </li>
+
+               <li>
+                 <hr color="#c2c0c3" />
+                 PORTFOLIO WEBPAGE
+                 <a href="#" style="text-decoration: none"> ➲ </a>
+               </li>
+
+               
+             <hr color="#c2c0c3" />
+           </font>
+         </td>
+
+         <td width="45%">
+           <img src="img.png" alt="Project" width="75%" />
+         </td>
+       </tr>
+     </table>
+   </td>
+ </tr>
+</table>
+<!--Projects(end)-->
+        <!-- End Portfolio Section -->
+      </div>
+      <!--Achievement(start)-->
+    <table
+    id="internships"
+    border="0"
+    width="100%"
+    cellpadding="0"
+    cellspacing="0"
+    bgcolor="black"
+  >
+    <tr>
+      <td>
+        <table
+          border="0"
+          cellpadding="15"
+          cellspacing="0"
+          width="80%"
+          align="center"
+        >
+          <tr>
+            <td height="180" align="center" valign="middle">
+              <font face="Verdana" size="7" color="white">
+                Internships
+                <hr color="#4CAF50" width="100" />
+              </font>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <font face="Verdana" size="4" color="white">
+                <ul>
+                  <li>
+                    <b>Intern at CODECLAUSE.</b>
+                    <ul>
+                      <li>April,2023 - Present.</li>
+                      <li>
+                        Web Developer Intern - Currently developing Unit Converter
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <hr color="black" />
+                    <b>Intern at Lets Grow More</b>
+                    <ul>
+                      <li>March,2023 - Present.</li>
+                      <li>
+                        Java Developer Intern - Currently developing TIC-TAC-TOE Game
+                      </li>
+                    </ul>
+                  </li>
+                  <hr color="black" />
+                </ul>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!--Achievement(end)-->
+  
+
+  <table
+  id="achievements"
+  border="0"
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  bgcolor="black"
+>
+  <tr>
+    <td>
+      <table
+        border="0"
+        cellpadding="15"
+        cellspacing="0"
+        width="80%"
+        align="center"
+      >
+        <tr>
+          <td height="180" align="center" valign="middle">
+            <font face="Verdana" size="7" color="white">
+              Achievements
+              <hr color="#4CAF50" width="100" />
+            </font>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <font face="Verdana" size="4" color="white">
+              <ul>
+                <li>
+                  <b>Top 10 in Inter College Quiz Competition</b>
+                  <ul>
+                   
+                  </ul>
+                </li>
+
+                <li>
+                  <hr color="black" />
+                  <b>Runner Up in Inter College Quiz Competition</b>
+                </li>
+                <hr color="black" />
+              </ul>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--Achievement(end)-->
+
+
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+
+        <div class="w3-section">
+          <p>
+            <i
+              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            HYDERABAD, INDIA
+          </p>
+          <p>
+            <i
+              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Phone: +00 9999999999
+          </p>
+          <p>
+            <i
+              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            >
+            </i>
+            Email: bpraneethkumar@mail.com
+          </p>
+        </div>
+        <br />
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            <button
+              class="w3-button w3-light-grey w3-padding-large"
+              type="submit"
+            >
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+        <!-- End Contact Section -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
+    </div>
+  </body>
+</html>
